@@ -27,7 +27,7 @@ SLF4J: Actual binding is of type [org.slf4j.impl.SimpleLoggerFactory]
 [INFO] 
 [INFO] --- maven-compiler-plugin:3.10.1:compile (default-compile) @ student-management ---
 [INFO] Changes detected - recompiling the module!
-[INFO] Compiling 9 source files to C:\Users\tgoel\Documents\GitHub\LearningJava\StudentManagement\target\classes
+[INFO] Compiling 10 source files to C:\Users\tgoel\Documents\GitHub\LearningJava\StudentManagement\target\classes
 [INFO] 
 [INFO] --- maven-resources-plugin:3.2.0:testResources (default-testResources) @ student-management ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
@@ -51,26 +51,26 @@ SLF4J: Actual binding is of type [org.slf4j.impl.SimpleLoggerFactory]
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v2.7.0)
 
-2022-07-11 09:26:05.211  INFO 31968 --- [           main] com.goel.studentmanagement.Application   : Starting Application using Java 18.0.1 on TGOEL8YT4YD3 with PID 31968 (C:\Users\tgoel\Documents\GitHub\LearningJava\StudentManagement\target\classes started by tgoel in C:\Users\tgoel\Documents\GitHub\LearningJava\StudentManagement)
-2022-07-11 09:26:05.213  INFO 31968 --- [           main] com.goel.studentmanagement.Application   : No active profile set, falling back to 1 default profile: "default"
-2022-07-11 09:26:05.566  INFO 31968 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2022-07-11 09:26:05.594  INFO 31968 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 23 ms. Found 1 JPA repository interfaces.
-2022-07-11 09:26:05.958  INFO 31968 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2022-07-11 09:26:05.964  INFO 31968 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2022-07-11 09:26:05.965  INFO 31968 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
-2022-07-11 09:26:06.044  INFO 31968 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2022-07-11 09:26:06.044  INFO 31968 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 801 ms
-2022-07-11 09:26:06.160  INFO 31968 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2022-07-11 09:26:06.194  INFO 31968 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
-2022-07-11 09:26:06.320  INFO 31968 --- [           main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2022-07-11 09:26:06.391  INFO 31968 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2022-07-11 09:26:06.601  INFO 31968 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2022-07-11 09:26:06.623  INFO 31968 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
-2022-07-11 09:26:07.057  INFO 31968 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2022-07-11 09:26:07.064  INFO 31968 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2022-07-11 09:26:07.239  WARN 31968 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2022-07-11 09:26:07.438  INFO 31968 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2022-07-11 09:26:07.444  INFO 31968 --- [           main] com.goel.studentmanagement.Application   : Started Application in 2.48 seconds (JVM running for 2.727)
-2022-07-11 09:26:10.728  INFO 31968 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-07-11 09:26:10.728  INFO 31968 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2022-07-11 09:26:10.729  INFO 31968 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-07-11 12:15:45.397  INFO 41284 --- [           main] com.goel.studentmanagement.Application   : Starting Application using Java 18.0.1 on TGOEL8YT4YD3 with PID 41284 (C:\Users\tgoel\Documents\GitHub\LearningJava\StudentManagement\target\classes started by tgoel in C:\Users\tgoel\Documents\GitHub\LearningJava\StudentManagement)
+2022-07-11 12:15:45.399  INFO 41284 --- [           main] com.goel.studentmanagement.Application   : No active profile set, falling back to 1 default profile: "default"
+2022-07-11 12:15:45.785  INFO 41284 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-11 12:15:45.817  INFO 41284 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 26 ms. Found 1 JPA repository interfaces.
+2022-07-11 12:15:46.198  INFO 41284 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-11 12:15:46.205  INFO 41284 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-11 12:15:46.206  INFO 41284 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-07-11 12:15:46.283  INFO 41284 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-11 12:15:46.283  INFO 41284 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 851 ms
+2022-07-11 12:15:46.399  INFO 41284 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-11 12:15:46.433  INFO 41284 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-07-11 12:15:46.555  INFO 41284 --- [           main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-11 12:15:46.625  INFO 41284 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-07-11 12:15:46.832  INFO 41284 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-07-11 12:15:46.854  INFO 41284 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-07-11 12:15:47.279  INFO 41284 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-11 12:15:47.285  INFO 41284 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-11 12:15:47.459  WARN 41284 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-11 12:15:47.703  INFO 41284 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-11 12:15:47.709  INFO 41284 --- [           main] com.goel.studentmanagement.Application   : Started Application in 2.563 seconds (JVM running for 2.819)
+2022-07-11 12:15:52.059  INFO 41284 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-11 12:15:52.059  INFO 41284 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-11 12:15:52.060  INFO 41284 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms

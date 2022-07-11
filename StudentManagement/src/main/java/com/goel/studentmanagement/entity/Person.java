@@ -1,4 +1,4 @@
-package com.goel.studentmanagement;
+package com.goel.studentmanagement.entity;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

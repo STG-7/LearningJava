@@ -1,4 +1,4 @@
-package com.goel.studentmanagement;
+package com.goel.studentmanagement.controller;
 
 public class StudentNotFoundException extends PersonNotFoundException {
 
